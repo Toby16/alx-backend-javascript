@@ -1,9 +1,13 @@
 import { uploadPhoto, createUser } from './utils';
 
+/*
 const uploadPhotoVar = uploadPhoto();
 const createUserVar = createUser();
+*/
 
 export default function handleProfileSignup() {
+  const uploadPhotoVar = uploadPhoto();
+  const createUserVar = createUser();
   /*
   let body;
   let firstName;
