@@ -12,7 +12,7 @@ export default function handleProfileSignup() {
     firstName = data.firstName;
     lastName = data.lastName;
     console.log(body, firstName, lastName);
-  }).catch((error) => { // eslint-disable-line
+  }).catch(() => {
     console.log('Signup system offline');
   });
 }
