@@ -20,5 +20,5 @@ handleResponseFromAPI.then((data) => {
 
 /*
 const promise = Promise.resolve();
-handleResponseFromAPI(promise);
+handleResponseFromAPI();
 */
