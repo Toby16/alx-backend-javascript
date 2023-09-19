@@ -9,7 +9,8 @@
  */
 
 const displayMessage = (stringArg) => {
-  process.stdout.write(`${stringArg}\n`);
+  // process.stdout.write(`${stringArg}\n`);
+  console.log(stringArg);
 };
 
 // displayMessage("Hello NodeJS!");
